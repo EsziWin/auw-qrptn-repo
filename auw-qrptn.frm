@@ -4661,7 +4661,6 @@ Private Sub Form_Load()
   stax% = 0
   exparvolt% = 1
   expar$ = Trim$(UCase$(Command$))
-'  If expar$ = "" Then expar$ = "AUWKER/RKSZ/A011/C:\AUWIN\": parancssor% = 0: exparvolt% = 0: jogok$ = "IIIIISSSSSSIIII"
   If expar$ = "" Then
     parancssor% = 1
     exparvolt% = 0
